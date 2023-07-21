@@ -1001,11 +1001,29 @@ input[type="text"], .form-textarea > textarea {
 }
 
 
+
 @media (max-width: 630px) {
+  .skillset-section {
+    /* padding: 0px; */
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .skillset-tech {
+    grid-template-columns: repeat(2, 1fr);
+    /* padding: 0; */
+    width: 80vw;
+  }
+  .skillset-tech  > li{
+    padding: 5px 10px;
+    font-size: .8em;
+    background-color: #1c1d25;
+    color: white;
+    white-space: nowrap;
+  }
+
   footer form {
     width: 350px;
   }
-
   .left-footer h2 {
     font-size: 2rem;
   }
