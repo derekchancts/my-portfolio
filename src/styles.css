@@ -1231,6 +1231,15 @@ input[type="text"], .form-textarea > textarea {
     font-size: .6em;
   }
 
+  .project-card {
+    height: 920px;
+    width: 80vw;
+  }
+  .project-card1 {
+    height: 700px;
+    width: 80vw;
+  }
+
   .project-card .project-image, .project-card1 .project-image{
     min-height: 230px;
     max-height: 230px;
