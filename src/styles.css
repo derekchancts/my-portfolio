@@ -983,6 +983,12 @@ input[type="text"], .form-textarea > textarea {
   .hero-text h1 {
     font-size: 50px;
   }
+  .hero-text {
+    margin-bottom: 150px;
+  }
+  .hero-area {
+    height: 70%;
+  }
 
   .sub-section {
     padding: 10px;
@@ -1039,6 +1045,22 @@ input[type="text"], .form-textarea > textarea {
 
 
 @media (max-width: 600px) {
+  .hero {
+    height: 80vh;
+  }
+  .hero-text h1 {
+    font-size: 50px;
+  }
+  .hero-text h1 {
+    font-size: 50px;
+  }
+  .hero-text {
+    margin-bottom: 100px;
+  }
+  .hero-area {
+    height: 60%;
+  }
+
   .skillset-container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1052,9 +1074,7 @@ input[type="text"], .form-textarea > textarea {
   .information p, .hero-text p {
     font-size: 20px;
   }
-  .hero-text h1 {
-    font-size: 50px;
-  }
+
   .button {
     width: 130px;
     height: 40px;
@@ -1187,11 +1207,18 @@ input[type="text"], .form-textarea > textarea {
 
 
 @media (max-width: 480px) {
-  .hero-text {
-    margin-bottom: 200px;
+  .hero {
+    height: 80vh;
   }
   .hero-text h1 {
-    font-size: 2rem;
+    font-size: 40px;
+  }
+  .hero-text {
+    margin-bottom: 20px;
+  }
+  .hero-area {
+    height: 40%;
+    font-weight: 100vw;
   }
 
   .sub-section {
@@ -1201,16 +1228,11 @@ input[type="text"], .form-textarea > textarea {
     margin-right: 5vw;
   }
 
-  
   .button {
     width: 100px;
     height: 30px;
     font-size: 15px;
   }
-  .hero-area {
-    height: 80%;
-  }
-
   .information p, .hero-text p {
     font-size: 18px;
   }
@@ -1242,6 +1264,11 @@ input[type="text"], .form-textarea > textarea {
 
 
 @media (max-width: 400px) {
+  .hero-text {
+   margin-left: 10vw;
+   /* margin-right: 5vw; */
+  }
+
   .skillset-tech  > li{
     padding: 5px 10px;
     font-size: .6em;
