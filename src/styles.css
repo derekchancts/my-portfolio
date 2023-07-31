@@ -984,6 +984,13 @@ input[type="text"], .form-textarea > textarea {
     font-size: 50px;
   }
 
+  .sub-section {
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
   .skillset-tech {
     grid-template-columns: repeat(2, 1fr);
     padding: 0;
@@ -1186,6 +1193,14 @@ input[type="text"], .form-textarea > textarea {
   .hero-text h1 {
     font-size: 2rem;
   }
+
+  .sub-section {
+    /* padding: 10px; */
+    margin-bottom: 50px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
   
   .button {
     width: 100px;
