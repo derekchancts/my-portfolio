@@ -129,6 +129,10 @@ li {
   /* background: black; */
 }
 
+.nav-items a:hover {
+  color: #ff7f50;
+}
+
 .logo {
   height: 80px;
   margin: 30px;
@@ -253,13 +257,16 @@ p {
   gap: 30px;
 }
 
-
 .hamburger-lines {
   display: none;
 }
 
 .hamburger-lines:focus {
   outline: 0;
+}
+
+.menu-items a:hover {
+  color: #ff7f50;
 }
 
 .button {
@@ -311,8 +318,8 @@ a {
   display: flex;
   justify-content: space-around;
   padding: 80px;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 .sub-section .information {
   text-align: start;
@@ -661,8 +668,8 @@ input[type="text"], .form-textarea > textarea {
 
 @media (max-width: 1200px) {
   .sub-section {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 
   .project-card {
@@ -996,8 +1003,8 @@ input[type="text"], .form-textarea > textarea {
   .sub-section {
     padding: 10px;
     margin-bottom: 50px;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
   }
 
   .skillset-tech {
@@ -1148,10 +1155,8 @@ input[type="text"], .form-textarea > textarea {
     margin: 0 auto;
   }
   .project-card .project-details .subtext {
-    /* max-width: 650px; */
     max-width: 300px;
     overflow: auto;
-    /* color: red; */
   }
   .project-card h3 {
     font-size: 2em;
@@ -1241,10 +1246,9 @@ input[type="text"], .form-textarea > textarea {
   }
 
   .sub-section {
-    /* padding: 10px; */
     margin-bottom: 50px;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 
   .button {
@@ -1285,7 +1289,6 @@ input[type="text"], .form-textarea > textarea {
 @media (max-width: 400px) {
   .hero-text {
    margin-left: 10vw;
-   /* margin-right: 5vw; */
   }
 
   .skillset-tech  > li{
